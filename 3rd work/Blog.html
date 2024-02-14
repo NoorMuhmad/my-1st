@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            background-attachment: fixed;
+            border-radius: 10px;
+        }
+
+        li {
+            display: inline-block;
+            list-style: none;
+            margin: 20px;
+        }
+
+        li .list {
+            text-decoration: none;
+            color: rgb(114, 84, 10);
+            font-size: large;
+            transition-duration: 0.6s;
+        }
+
+        .list:hover {
+            color: rgb(0, 255, 21);
+            background: rgb(66, 66, 14);
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        #blog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: auto;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+
+        }
+
+        .blog-post {
+            width: 30%;
+            /* Adjust the width based on your design */
+            margin-bottom: 20px;
+        }
+        
+        .read-more-link {
+            text-decoration: none;
+            background-color: rgba(0, 136, 255, 0.699);
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            margin-top: 30px;
+            padding: 2px
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a class="list" href="Home.html">Home</a></li>
+            <li><a class="list" href="Blog.html">Blog</a></li>
+            <li><a class="list" href="About Us.html">About Us</a></li>
+            <li><a class="list" href="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="blog">
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 1 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 1</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 1. This is where you provide a short
+                    description of the article.</p>
+                    <a href="blog2.html" class="read-more-link">Read More</a>
+                </div>
+        </article>
+
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 2 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 2</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 2. This is where you provide a short
+                    description of the article.</p>
+                <a href="blog2.html" class="read-more-link">Read More</a>
+            </div>
+        </article>
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 2 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 2</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 2. This is where you provide a short
+                    description of the article.</p>
+                <a href="blog2.html" class="read-more-link">Read More</a>
+            </div>
+        </article>
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 2 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 2</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 2. This is where you provide a short
+                    description of the article.</p>
+                <a href="blog2.html" class="read-more-link">Read More</a>
+            </div>
+        </article>
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 2 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 2</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 2. This is where you provide a short
+                    description of the article.</p>
+                <a href="blog2.html" class="read-more-link">Read More</a>
+            </div>
+        </article>
+        <article class="blog-post">
+            <img src="pexels-abdullah-ghatasheh-1631677.jpg" alt="Article 2 Image">
+            <div class="post-content">
+                <h2 class="post-title">Title of Article 2</h2>
+                <p class="post-summary">Brief summary or excerpt of Article 2. This is where you provide a short
+                    description of the article.</p>
+                <a href="blog2.html" class="read-more-link">Read More</a>
+            </div>
+        </article>
+
+        <!-- Repeat the structure for more articles -->
+    </section>
+
+</body>
+
+</html>
